@@ -1,0 +1,44 @@
+Read Me
+
+Problem Statment:
+Compare two Logical Clock Algorithms.
+
+
+Contents:
+The zip file contains the following:
+1. `sourceCode.cpp` - C++ source code.
+2. `shellScript.sh` - Shell Script to execute the code over multiple iterations.
+3. `outputEntries.txt` - The cpp code writes AlgorithmType, #Nodes, #Entries, #Messages for each iteration in this file. 4. `pyScript.py` - Python script to generate graph as per the data in `outputEntries.txt`.
+5. `in-params.txt` - Input file for a single-run from the Command Prompt.
+6. `ComparisionGraph.png` - Graph as per the problem Statement.
+7. `logSKOpt.txt` - Log-file for SK Optimization algorithm of a four-nodes cyclic graph.
+8. `logVecClk.txt` - Log-file for Vector Clock algorithm of a four-nodes cyclic graph.
+9+. `in-params<#Nodes>.txt` - Input files for executing in shellScript used for generating graph.
+
+System Model:
+The `sourceCode.cpp` creates the entire distributed network topology by creating each Node as a thread. These node- threads further create `server thread` and `client threads` to communicate with their neighbours. Each client thread is connected to a node-neighbour.
+Message Passing:
+Node-thread shares a message queue with its client-threads.
+The node-thread pushes a control message into the queue of its client-thread to be sent to its neighbour.
+
+Packages required:
+1. gcc version = 4.8.4
+2. python 2.7 (to generate graph using script)
+
+Command Line argument for sourceCode.cpp :
+1. StartPortNum [Mandatory]: Starting port numbers of each server sockets of a node. eg. If StartPortNum = 4000 Node-1 Server Port Num : 4000 + 1 and so on.
+2. AlgorithmType [Mandatory]: The type of algorithm the program should execute eg. 0 – Vector Clock Algorithm 1 – SK Optimization
+3. FileName [Optional]: Input Filename. [Default : “in-params.txt”] 
+4. Order of arguments
+./executable_name < StartPortNum> < AlgorithmType> < FileName>
+
+Command Line argument for `shellScript.sh` :
+1. StartPortNum [Mandatory]: Starting port numbers for the first iteration of `sourceCode.cpp`. eg. ./shellScript.sh <StartPortNum>
+
+Execution:
+1. Check maximum number of threads per process the system supports: cat /proc/sys/kernel/threads-max 
+If more threads are required : echo 31529 > /proc/sys/kernel/threads-max
+2. Making the script executable: chmod +x shellScript.sh
+3. Compiling the code: g++ sourceCode.cpp -g -lpthread -o sourceCode
+4. Executing the Shell Script: ./shellScript.sh <StartPortNum>
+5. Executing the cpp file: ./sourceCode <StartPortNum> <AlgorithmType> <FileName>
