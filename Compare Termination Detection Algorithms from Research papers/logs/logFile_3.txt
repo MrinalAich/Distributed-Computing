@@ -1,0 +1,217 @@
+ Node-Id: 3
+Connected to all neighbours.
+5:57:53 State: Passive and Detecting.
+5:57:53 Node 3 receives START message from Node 1.
+5:57:53 Node 3 sent a START message to Node 5.
+5:57:55 State: Active and Detecting.
+5:57:55 Node 3 sends a message to Node 5.
+5:57:57 State: Active and Detecting.
+5:57:57 Node 3 sends a message to Node 1.
+5:57:59 State: Active and Detecting.
+5:57:59 Node 3 sends a message to Node 1.
+5:58:1 State: Active and Detecting.
+5:58:1 Node 3 sends a message to Node 2.
+5:58:1 Node 3 receives a message from Node 1.
+5:58:1 Node 3 receives a message from Node 2.
+5:58:3 State: Active and Detecting.
+5:58:3 Node 3 sends a message to Node 4.
+5:58:3 Node 3 receives FINISHED 2 from Node 1 at depth: 1.
+5:58:3 Node 3 receives a message from Node 4.
+5:58:3 Node 3 receives a message from Node 5.
+5:58:5 State: Active and Detecting.
+5:58:5 Node 3 sends a message to Node 1.
+5:58:7 State: Active and Detecting.
+5:58:7 Node 3 sends a message to Node 4.
+5:58:7 Node 3 receives a message from Node 4.
+5:58:7 Node 3 receives a message from Node 5.
+5:58:9 State: Active and Detecting.
+5:58:9 Node 3 sends a message to Node 4.
+5:58:9 Node 3 receives FINISHED 1 from Node 1 at depth: 1.
+5:58:9 Node 3 receives a message from Node 4.
+5:58:9 Node 3 receives a message from Node 5.
+5:58:11 State: Active and Detecting.
+5:58:11 Node 3 sends a message to Node 2.
+5:58:11 Node 3 receives a message from Node 2.
+5:58:13 State: Active and Detecting.
+5:58:13 Node 3 sends a message to Node 1.
+5:58:15 State: Active and Detecting.
+5:58:15 Node 3 sends a message to Node 4.
+5:58:15 Node 3 receives a message from Node 4.
+5:58:15 Node 3 receives a message from Node 5.
+5:58:17 State: Active and Detecting.
+5:58:17 Node 3 sends a message to Node 2.
+5:58:17 Node 3 receives a message from Node 1.
+5:58:17 Node 3 receives a message from Node 2.
+5:58:19 State: Active and Detecting.
+5:58:19 Node 3 sends a message to Node 4.
+5:58:19 Node 3 receives FINISHED 1 from Node 1 at depth: 1.
+5:58:19 Node 3 receives a message from Node 4.
+5:58:19 Node 3 receives a message from Node 5.
+5:58:21 State: Active and Detecting.
+5:58:21 Node 3 sends a message to Node 5.
+5:58:23 State: Active and Detecting.
+5:58:23 Node 3 sends a message to Node 4.
+5:58:23 Node 3 receives a message from Node 4.
+5:58:23 Node 3 receives a message from Node 5.
+5:58:25 State: Active and Detecting.
+5:58:25 Node 3 sends a message to Node 2.
+5:58:25 Node 3 receives a message from Node 2.
+5:58:27 State: Active and Detecting.
+5:58:27 Node 3 sends a message to Node 5.
+5:58:29 State: Active and Detecting.
+5:58:29 Node 3 sends a message to Node 5.
+5:58:31 State: Active and Detecting.
+5:58:31 Node 3 sends a message to Node 2.
+5:58:31 Node 3 receives a message from Node 2.
+5:58:33 State: Active and Detecting.
+5:58:33 Node 3 sends a message to Node 2.
+5:58:33 Node 3 receives a message from Node 2.
+5:58:35 State: Active and Detecting.
+5:58:35 Node 3 sends a message to Node 2.
+5:58:35 Node 3 receives a message from Node 2.
+5:58:37 State: Active and Detecting.
+5:58:37 Node 3 sends a message to Node 4.
+5:58:37 Node 3 receives a message from Node 4.
+5:58:37 Node 3 receives a message from Node 5.
+5:58:39 State: Active and Detecting.
+5:58:39 Node 3 sends a message to Node 2.
+5:58:39 Node 3 receives a message from Node 2.
+5:58:41 State: Active and Detecting.
+5:58:41 Node 3 sends a message to Node 2.
+5:58:41 Node 3 receives a message from Node 2.
+5:58:43 State: Active and Detecting.
+5:58:43 Node 3 sends a message to Node 2.
+5:58:43 Node 3 has turned Passive.
+5:58:45 Node 3 sent FINISHED message to Node 2
+5:58:45 Node 3 sent FINISHED message to Node 4
+5:58:45 Node 3 sent FINISHED message to Node 5
+5:58:45 Node State: num_unack_msgs: 22
+5:58:45 Node 3 receives a message from Node 2.
+5:58:45 Node 3 receives FINISHED 9 from Node 2 at depth: 1.
+5:58:45 Node State: num_unack_msgs: 13
+5:58:45 Node 3 receives FINISHED 7 from Node 4 at depth: 1.
+5:58:45 Node State: num_unack_msgs: 6
+5:58:47 State: Passive and Detecting.
+5:58:47 Node 3 sent FINISHED message to Node 2
+5:58:47 Node State: num_unack_msgs: 6
+5:58:47 Node 3 receives FINISHED 1 from Node 2 at depth: 1.
+5:58:47 Node State: num_unack_msgs: 5
+5:58:47 Node 3 receives FINISHED 5 from Node 5 at depth: 1.
+5:58:47 Node State: num_unack_msgs: 0
+5:58:47 Node 3 sent FINISHED message to Parent Node 1
+5:58:49 State: Passive and Detecting.
+5:58:49 Node State: num_unack_msgs: 0
+5:58:51 State: Passive and Detecting.
+5:58:51 Node State: num_unack_msgs: 0
+5:58:53 State: Passive and Detecting.
+5:58:53 Node State: num_unack_msgs: 0
+5:58:55 State: Passive and Detecting.
+5:58:55 Node State: num_unack_msgs: 0
+5:58:57 State: Passive and Detecting.
+5:58:57 Node State: num_unack_msgs: 0
+5:58:59 State: Passive and Detecting.
+5:58:59 Node State: num_unack_msgs: 0
+5:59:1 State: Passive and Detecting.
+5:59:1 Node State: num_unack_msgs: 0
+5:59:3 State: Passive and Detecting.
+5:59:3 Node State: num_unack_msgs: 0
+5:59:5 State: Passive and Detecting.
+5:59:5 Node State: num_unack_msgs: 0
+5:59:7 State: Passive and Detecting.
+5:59:7 Node State: num_unack_msgs: 0
+5:59:9 State: Passive and Detecting.
+5:59:9 Node State: num_unack_msgs: 0
+5:59:11 State: Passive and Detecting.
+5:59:11 Node State: num_unack_msgs: 0
+5:59:13 State: Passive and Detecting.
+5:59:13 Node State: num_unack_msgs: 0
+5:59:15 State: Passive and Detecting.
+5:59:15 Node State: num_unack_msgs: 0
+5:59:17 State: Passive and Detecting.
+5:59:17 Node State: num_unack_msgs: 0
+5:59:19 State: Passive and Detecting.
+5:59:19 Node State: num_unack_msgs: 0
+5:59:21 State: Passive and Detecting.
+5:59:21 Node State: num_unack_msgs: 0
+5:59:23 State: Passive and Detecting.
+5:59:23 Node State: num_unack_msgs: 0
+5:59:25 State: Passive and Detecting.
+5:59:25 Node State: num_unack_msgs: 0
+5:59:27 State: Passive and Detecting.
+5:59:27 Node State: num_unack_msgs: 0
+5:59:29 State: Passive and Detecting.
+5:59:29 Node State: num_unack_msgs: 0
+5:59:31 State: Passive and Detecting.
+5:59:31 Node State: num_unack_msgs: 0
+5:59:33 State: Passive and Detecting.
+5:59:33 Node State: num_unack_msgs: 0
+5:59:35 State: Passive and Detecting.
+5:59:35 Node State: num_unack_msgs: 0
+5:59:37 State: Passive and Detecting.
+5:59:37 Node State: num_unack_msgs: 0
+5:59:39 State: Passive and Detecting.
+5:59:39 Node State: num_unack_msgs: 0
+5:59:41 State: Passive and Detecting.
+5:59:41 Node State: num_unack_msgs: 0
+5:59:43 State: Passive and Detecting.
+5:59:43 Node State: num_unack_msgs: 0
+5:59:45 State: Passive and Detecting.
+5:59:45 Node State: num_unack_msgs: 0
+5:59:47 State: Passive and Detecting.
+5:59:47 Node State: num_unack_msgs: 0
+5:59:49 State: Passive and Detecting.
+5:59:49 Node State: num_unack_msgs: 0
+5:59:51 State: Passive and Detecting.
+5:59:51 Node State: num_unack_msgs: 0
+5:59:53 State: Passive and Detecting.
+5:59:53 Node State: num_unack_msgs: 0
+5:59:55 State: Passive and Detecting.
+5:59:55 Node State: num_unack_msgs: 0
+5:59:57 State: Passive and Detecting.
+5:59:57 Node State: num_unack_msgs: 0
+5:59:59 State: Passive and Detecting.
+5:59:59 Node State: num_unack_msgs: 0
+6:0:1 State: Passive and Detecting.
+6:0:1 Node State: num_unack_msgs: 0
+6:0:3 State: Passive and Detecting.
+6:0:3 Node State: num_unack_msgs: 0
+6:0:5 State: Passive and Detecting.
+6:0:5 Node State: num_unack_msgs: 0
+6:0:7 State: Passive and Detecting.
+6:0:7 Node State: num_unack_msgs: 0
+6:0:9 State: Passive and Detecting.
+6:0:9 Node State: num_unack_msgs: 0
+6:0:11 State: Passive and Detecting.
+6:0:11 Node State: num_unack_msgs: 0
+6:0:13 State: Passive and Detecting.
+6:0:13 Node State: num_unack_msgs: 0
+6:0:15 State: Passive and Detecting.
+6:0:15 Node State: num_unack_msgs: 0
+6:0:17 State: Passive and Detecting.
+6:0:17 Node State: num_unack_msgs: 0
+6:0:19 State: Passive and Detecting.
+6:0:19 Node State: num_unack_msgs: 0
+6:0:21 State: Passive and Detecting.
+6:0:21 Node State: num_unack_msgs: 0
+6:0:23 State: Passive and Detecting.
+6:0:23 Node State: num_unack_msgs: 0
+6:0:25 State: Passive and Detecting.
+6:0:25 Node State: num_unack_msgs: 0
+6:0:27 State: Passive and Detecting.
+6:0:27 Node State: num_unack_msgs: 0
+6:0:29 State: Passive and Detecting.
+6:0:29 Node State: num_unack_msgs: 0
+6:0:31 State: Passive and Detecting.
+6:0:31 Node State: num_unack_msgs: 0
+6:0:33 State: Passive and Detecting.
+6:0:33 Node State: num_unack_msgs: 0
+6:0:35 State: Passive and Detecting.
+6:0:35 Node State: num_unack_msgs: 0
+6:0:37 State: Passive and Detecting.
+6:0:37 Node State: num_unack_msgs: 0
+6:0:39 State: Passive and Detecting.
+6:0:39 Node State: num_unack_msgs: 0
+6:0:41 State: Passive and Detecting.
+6:0:41 Node State: num_unack_msgs: 0
+6:0:43 State: Passive and Detecting.
+6:0:43 Node State: num_unack_msgs: 0
